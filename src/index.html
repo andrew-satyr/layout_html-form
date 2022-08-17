@@ -9,17 +9,18 @@
     <meta
       http-equiv="X-UA-Compatible"
       content="ie=edge"
-      >
+    >
     <title>HTML Form</title>
     <link
       rel="stylesheet"
       href="./style.css"
-      >
+    >
   </head>
   <body>
     <form
       action="https://mate-academy-form-lesson.herokuapp.com/create-application"
-      method="get">
+      method="get"
+    >
       <fieldset class="part">
         <legend class="info">
           Personal information
@@ -38,7 +39,7 @@
           <input
             type="text"
             name="name"
-            >
+          >
         </label>
 
         <label class="content">
@@ -48,7 +49,7 @@
             min="10"
             max="100" value="12"
             name="age"
-            >
+          >
         </label>
 
         <label class="content">
@@ -56,7 +57,7 @@
           <input
             type="date"
             name="birthed"
-            >
+          >
         </label>
 
         <label class="content">
@@ -64,7 +65,7 @@
           <input
             type="checkbox"
             name="terms"
-            >
+          >
         </label>
       </fieldset>
 
@@ -80,7 +81,7 @@
             name="email"
             placeholder="email@example.com"
             required
-            >
+          >
         </label>
 
         <label class="content">
@@ -89,7 +90,7 @@
             type="password"
             name="password"
             required
-            >
+          >
         </label>
       </fieldset>
 
@@ -103,21 +104,22 @@
           <input
             type="radio"
             name="cats"
-            value="y">
+            value="y"
+          >
             Yes
           <input
             type="radio"
             name="cats"
             value="n"
-            >
+          >
             No
         </label>
 
         <label class="content">
           What is your favorite color?
           <input
-          type="color"
-          name="color"
+            type="color"
+            name="color"
           >
         </label>
 
@@ -129,7 +131,7 @@
             min="09:00"
             max="24:00"
             placeholder="--:--:--"
-            >
+          >
         </label>
 
         <label class="content">
@@ -137,9 +139,11 @@
           <select
             name="cars"
             multiple
-            >
+          >
             <option>BMW</option>
+
             <option>Audi</option>
+
             <option>Lada</option>
           </select>
         </label>
@@ -151,7 +155,7 @@
             min="0"
             max="100" name="rate"
             value="0"
-            >
+          >
         </label>
       </fieldset>
 
@@ -165,7 +169,7 @@
           <textarea
             name="comments"
             autocomplete="off"
-            >
+          >
           </textarea>
         </label>
 
