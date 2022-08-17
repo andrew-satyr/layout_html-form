@@ -1,0 +1,1 @@
+{"version":3,"sources":["style.css"],"names":[],"mappings":"AAAA,MACE,cAAe,CACf,kBAAmB,CACnB,iBACF,CAEA,SACE,eAEF,CAEA,eAHE,aAKF","file":"style.33dd8545.css","sourceRoot":"..\\src","sourcesContent":[".part {\n  margin-top: 8px;\n  margin-bottom: 20px;\n  padding-left: 12px;\n}\n\n.content {\n  margin-top: 10px;\n  display: block;\n}\n\nlabel {\n  display: block;\n}\n"]}
